@@ -4,7 +4,9 @@ const items = document.querySelectorAll('.item');
 const propsLists = document.querySelectorAll('.props__list');
 const contents = document.querySelectorAll('.content');
 const propsItems = document.querySelectorAll('.props__item');
-console.log('propsItems: ', propsItems);
+const ads = document.querySelector('.ads');
+
+ads.remove();
 
 items[3].after(items[0]);
 
